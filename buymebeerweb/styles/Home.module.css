@@ -1,0 +1,79 @@
+.connectWalletBtn {
+    border: solid black 1px !important;
+}
+
+
+
+.beerButtons{
+    border: solid 1px;
+}
+.beerButtons:hover{
+    background-color: #fde047 !important;
+    border: solid 1px;
+}
+
+.beerButtonsDec {
+    border: solid  1px;
+}
+.beerButtonsDec:hover {
+    
+    background-color: #fb7185 !important ;
+    border: solid  1px;
+}
+
+.web3button {
+    background-color: #fde047 !important;
+    border: solid 1px !important;
+}
+
+.web3button:hover {
+    
+    background-color: #86efac !important;
+    border: solid 1px;
+}
+
+.leftColumn {
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+
+.rightColumn {
+    border: solid   1px;
+    border-radius: 5px;
+}
+.input {
+    border: solid 1px !important;
+}
+
+.totalBox {
+    height: 25px;
+    width: 100px;
+    padding: 0 5px ;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: #fde047;
+}
+.totalBoxPrice {
+    height: 25px;
+    width: 100px;
+    padding: 0 5px ;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: #86efac;
+}
+
+.recentBeers:hover {
+    border: solid #fb7185 1px;
+    border-radius: 5px;
+}
+
+.toast {
+    border: solid 1px !important;
+    background-color: #86efac;
+    border-radius: 5px;
+}
+.footer__social_link {
+
+    font-size: 1.25rem;
+}
