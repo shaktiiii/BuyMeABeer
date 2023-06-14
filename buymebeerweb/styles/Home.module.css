@@ -63,6 +63,11 @@
     background-color: #86efac;
 }
 
+.recentBeers {
+    border: solid 1px;
+    border-radius: 5px;
+}
+
 .recentBeers:hover {
     border: solid #fb7185 1px;
     border-radius: 5px;
