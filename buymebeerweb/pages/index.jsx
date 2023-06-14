@@ -77,7 +77,7 @@ export default function Home() {
           <Flex  alignItems={"center"} justify={"center"} padding={"10px"} direction={"row"} gap={"25px"}>
 
             <Box display={"flex"} justifyContent={"center"} minWidth={"10vh"}>
-            <Image  src="../singleBeer.png" boxSize={"70px"}/>            
+            <Image alt='beericon' src="../singleBeer.png" boxSize={"70px"}/>            
             </Box>
 
             <Flex direction={"column"}>
@@ -102,7 +102,7 @@ export default function Home() {
           <Flex  alignItems={"center"} justify={"center"} padding={"10px"} direction={"row"} gap={"25px"}>
 
             <Box display={"flex"} justifyContent={"center"} minWidth={"10vh"}>
-            <Image  src="../beerBottleThanks.png" boxSize={"70px"}/>            
+            <Image alt='beericon' src="../beerBottleThanks.png" boxSize={"70px"}/>            
             </Box>
 
             <Flex direction={"column"}>
@@ -127,13 +127,13 @@ export default function Home() {
           <Flex  alignItems={"center"} justify={"center"} padding={"10px"} direction={"row"} gap={"15px"}>
 
             <Box display={"flex"} justifyContent={"center"} minWidth={"10vh"}>
-            <Image  src="../beerBottels.png" boxSize={"70px"}/>            
+            <Image alt='beericon' src="../beerBottels.png" boxSize={"70px"}/>            
             </Box>
 
             <Flex direction={"column"}>
               <Heading fontSize={"xl"}> Hey, {name} </Heading>
               
-              <Text mt={"5px"}>Cheers to the master of hoppy surprises! Thanks for filling my fridge with liquid happiness. You've turned my ordinary days into extraordinary ones!</Text>
+              <Text mt={"5px"}>Cheers to the master of hoppy surprises! Thanks for filling my fridge with liquid happiness. You have turned my ordinary days into extraordinary ones!</Text>
             </Flex>
             
           </Flex>
@@ -152,7 +152,7 @@ export default function Home() {
           <Flex  alignItems={"center"} justify={"center"} padding={"10px"} direction={"row"} gap={"10px"}>
 
             <Box display={"flex"} justifyContent={"center"} minWidth={"10vh"}>
-            <Image  src="../beer.png" boxSize={"70px"}/>            
+            <Image alt='beericon'  src="../beer.png" boxSize={"70px"}/>            
             </Box>
 
             <Spacer />
@@ -160,7 +160,7 @@ export default function Home() {
             <Flex direction={"column"}>
               <Heading fontSize={"xl"}> Hey, {name} </Heading>
               
-              <Text mt={"5px"}>You're like a beer whisperer, sensing my deepest desires and delivering them in the form of frothy goodness! My taste buds are throwing a wild party, and it's all thanks to your beery generosity. Cheers, mate!</Text>
+              <Text mt={"5px"}>You are like a beer whisperer, sensing my deepest desires and delivering them in the form of frothy goodness! My taste buds are throwing a wild party, and it is all thanks to your beery generosity. Cheers, mate!</Text>
             </Flex>
             
           </Flex>
@@ -229,7 +229,7 @@ export default function Home() {
 
                 <Flex direction={"row"}>
                   <Text> Total Beers Chugged   </Text>
-                  <Image pl={'2px'} boxSize="25px" src="../icon.png"/>
+                  <Image alt='beericon' pl={'2px'} boxSize="25px" src="../icon.png"/>
                   
                   <Skeleton isLoaded={!loadingTotalBeers} width={"20px"} ml={"5px"} >
                     : {totalBeers?.toString()} 
@@ -256,7 +256,7 @@ export default function Home() {
                   <Flex direction={"column"} align={"center"} gap={"10px"}>
  
                     <Box as='button' onClick={() => incrementBeerCan()}>
-                      <Image  src="../beerCan.png" boxSize={"45px"}/>            
+                      <Image alt='beericon'  src="../beerCan.png" boxSize={"45px"}/>            
                     </Box>
 
                     {/* Number of Beers  */}
@@ -279,7 +279,7 @@ export default function Home() {
                   <Flex direction={"column"} align={"center"} gap={"10px"}>
  
                     <Box as='button' onClick={() => incrementBeerBottle()}>
-                      <Image  src="../beerBottle.png" boxSize={"45px"}/>            
+                      <Image alt='beericon' src="../beerBottle.png" boxSize={"45px"}/>            
                     </Box>
 
                     {/* Number of Beers  */}
@@ -302,7 +302,7 @@ export default function Home() {
                   <Flex direction={"column"} align={"center"} gap={"10px"}>
  
                     <Box as='button' onClick={() => incrementBeerPack()}>
-                      <Image  src="../beerBox.png" boxSize={"45px"}/>            
+                      <Image alt='beericon' src="../beerBox.png" boxSize={"45px"}/>            
                     </Box>
 
                     {/* Number of Beers  */}
