@@ -373,7 +373,7 @@ export default function Home() {
                       </CardBody>
                     </Card>
                   )
-                })
+                }).reverse()
               }
             </Box>
            ) : (
